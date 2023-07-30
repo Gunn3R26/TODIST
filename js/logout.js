@@ -1,4 +1,4 @@
-import {auth,signOut} from "./js/app.js";
+import {auth,signOut} from "../js/app.js";
 
 
 const logoutBtn = document.getElementById("logout-btn");
