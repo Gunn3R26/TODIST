@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins" />
+  
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="js/script.js" type="module"></script>
+    <script src="js/app.js" type="module"></script>
+ 
+</head>
+
+<body>
+    <div id="particles-js"></div>
+    <div class="wrap">
+        <input type="checkbox" id="form_switch" style="display: none;">
+        <div class="flipcard">
+            <div class="flipcard-inner">
+                <div class="flipcard-front">
+                    <form class="login-form" action="">
+                        <div class="form-header">
+                            <h3>Login Form</h3><br>
+                            <p><span class="ty">Login to </span> <span class="type"></span></p>
+                        </div>
+                        <!--Email Input-->
+                        <div class="form-group">
+                            <input type="text" class="form-input" id="email-log" name="email"
+                                placeholder="email@example.com">
+                        </div>
+                        <!--Password Input-->
+                        <div class="form-group">
+                            <input type="password" class="form-input" id="pass-log" name="password"
+                                placeholder="password">
+                        </div>
+                        <!--Login Button-->
+                        <div class="form-group">
+                            <button class="form-button" id="login-button" type="submit">Login</button>
+                        </div>
+                        <div class="form-footer">
+                            Want to make a new account ? &nbsp <label class="label-highlight" for="form_switch"> Sign Up
+                            </label>
+                        </div>
+                    </form>
+                </div>
+                <!-- signup -->
+                <div class="flipcard-back">
+                    <form class="login-form" action="">
+                        <div class="form-header">
+                            <h3>Signup Form</h3><br>
+                            <p><span class="ty">Register to</span>  <span class="type1"></span></p>
+                        </div>
+                        <!--Email Input-->
+                        <div class="form-group">
+                            <input type="text" class="form-input" id="email-sign" name="email"
+                                placeholder="email@example.com">
+                        </div>
+                        <!--Password Input-->
+                        <div class="form-group">
+                            <input type="password" class="form-input" id="pass-sign" name="password"
+                                placeholder="Password">
+                        </div>
+                        <!--Password Input-->
+                        <div class="form-group">
+                            <input type="password" class="form-input" id="cpass-sign" name="confirm_password"
+                                placeholder="Confirm Password">
+                        </div>
+                        <!--Login Button-->
+                        <div class="form-group">
+                            <button class="form-button form-button-register" id="signup-button"
+                                type="submit">Signup</button>
+                        </div>
+                        <div class="form-footer">
+                            Already have an account? <label class="label-highlight" for="form_switch"> Login</label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script src="js/app1.js"></script>
+    
+</body>
+
+</html>
