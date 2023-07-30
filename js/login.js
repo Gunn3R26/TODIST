@@ -1,4 +1,4 @@
-import {auth, signInWithEmailAndPassword } from "js/app.js"
+import {auth, signInWithEmailAndPassword } from "/js/app.js"
 document.getElementById("login-button").addEventListener("click", login );
 function login(e) {
     e.preventDefault(); //Prevent the default form submission behavior

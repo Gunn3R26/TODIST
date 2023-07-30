@@ -1,5 +1,5 @@
 // login js
-import {auth, signInWithEmailAndPassword } from "js/app.js"
+import {auth, signInWithEmailAndPassword } from "/js/app.js"
 document.getElementById("login-button").addEventListener("click", login );
 function login(e) {
     e.preventDefault(); //Prevent the default form submission behavior
@@ -23,7 +23,7 @@ function login(e) {
 // }
 
 //signup js
-import {createUserWithEmailAndPassword} from "js/app.js";
+import {createUserWithEmailAndPassword} from "/js/app.js";
 
 
 document.getElementById("signup-button").addEventListener('click',register)

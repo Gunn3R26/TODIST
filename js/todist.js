@@ -1,5 +1,5 @@
 // script.js
-import { auth, doc, getDoc, setDoc, db } from "js/app.js";
+import { auth, doc, getDoc, setDoc, db } from "/js/app.js";
 const inputBox = document.getElementById("input-box");
 const listContainer = document.getElementById("list-container");
 const addBtn = document.getElementById("add-btn");
